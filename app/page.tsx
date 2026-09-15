@@ -41,7 +41,7 @@ export default function HomePage() {
             {/* Hero picture */}
             <div className="relative aspect-[4/3] w-full max-w-md flex-1 overflow-hidden rounded-card shadow-lg sm:aspect-[16/10] lg:max-w-none">
               <Image
-                src="/images/pang.webp"
+                src="/pangasinanHeritage/images/pang.webp"
                 alt="Aerial view of the Hundred Islands National Park, Alaminos, Pangasinan"
                 fill
                 priority
