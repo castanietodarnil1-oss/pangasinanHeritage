@@ -17,7 +17,7 @@ export const heritageSites: HeritageSite[] = [
     category: "Island",
     blurb:
       "A 124-island archipelago in the Lingayen Gulf, the country's first national marine reserve and a geological wonder.",
-    image: "/images/26-hundred-island-main-banner.webp",
+    image: "/pangasinanHeritage/images/26-hundred-island-main-banner.webp",
   },
   {
     slug: "bolinao-lighthouse",
@@ -26,7 +26,7 @@ export const heritageSites: HeritageSite[] = [
     category: "Landmark",
     blurb:
       "A Spanish-era parola built in 1905, standing above sea level with panoramic views of the West Philippine Sea.",
-    image: "/images/98.webp",
+    image: "/pangasinanHeritage/images/98.webp",
   },
   {
     slug: "balungao-hot-spring",
@@ -35,6 +35,6 @@ export const heritageSites: HeritageSite[] = [
     category: "Nature",
     blurb:
       "Mineral-rich hot springs at the foot of the Balungao mountain range, long valued by locals for their therapeutic properties.",
-    image: "/images/maxresdefault.jpg",
+    image: "/pangasinanHeritage/images/maxresdefault.jpg",
   },
 ];
