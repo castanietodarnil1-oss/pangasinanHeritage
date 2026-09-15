@@ -37,7 +37,7 @@ export function SearchForm({
       </label>
       <div className="relative flex-1">
         <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-ink-500">
-          <Icon icon={Search} size={18} />
+          <Icon icon={Search} size={20} />
         </span>
         <input
           id="site-search"

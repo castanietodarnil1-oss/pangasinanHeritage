@@ -6,7 +6,7 @@ import { LucideIcon } from "lucide-react";
 // swapped for a different icon set later without touching call sites.
 type IconProps = {
   icon: LucideIcon;
-  size?: 16 | 20 | 24 | 32;
+  size?: 16 | 18 | 20 | 24 | 32;
   className?: string;
   "aria-label"?: string;
 };
