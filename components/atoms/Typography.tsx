@@ -29,6 +29,7 @@ type TypographyProps = {
   as?: ElementType;
   className?: string;
   children: ReactNode;
+  id?: string;
 };
 
 export function Typography({
@@ -36,10 +37,11 @@ export function Typography({
   as,
   className = "",
   children,
+  id,
 }: TypographyProps) {
   const Tag = as ?? defaultTag[variant];
   return (
-    <Tag className={`${variantStyles[variant]} ${className}`}>
+    <Tag id={id} className={`${variantStyles[variant]} ${className}`}>
       {children}
     </Tag>
   );
